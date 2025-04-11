@@ -1,8 +1,47 @@
-# React + Vite
+# 🧑‍💼 Hirred – Full Stack Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hirred** is a modern, full-featured job portal web application where **recruiters** can post and manage jobs, and **job seekers** can search, filter, save, and apply for jobs — all with a clean UI and smooth experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🌟 Features
+
+### 👤 For Job Seekers:
+- 🔍 Search jobs with **location** and **company** filters
+- 📄 View detailed job listings
+- 📎 Apply to jobs with a resume
+- 📌 Save jobs to revisit later
+- 📊 Track application status
+
+### 🧑‍💼 For Recruiters:
+- ✍️ Post new job opportunities
+- 👀 View applicants for each job
+- ✅ Manage and update application statuses
+
+### 🔒 Authentication
+- Seamless sign-up & sign-in flow using **Clerk**
+
+---
+
+## 📸 Screenshots
+
+### 🖼️ Main View
+
+![Main Screenshot](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture5.PNG)
+
+### 🧪 Other Views
+
+| Job Listing | Job Details | Jobs Posting  | Applicant List |
+|-------------|--------------|----------------------|----------------|
+| ![img1](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture1.PNG) | ![img2](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture2.PNG) | ![img3](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture3.PNG) | ![img4](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture4.PNG) |
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Shadcn UI
+- **Auth**: Clerk
+- **Database**: Supabase
+- **Build Tool**: Vite
+
+---
