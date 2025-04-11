@@ -32,7 +32,7 @@
 
 ### 🧪 Other Views
 
-| Job Listing | Job Details | Jobs Posting  | Applicant List |
+| Job Listing | Job Wishlist | Jobs Posting  | Applicant List |
 |-------------|--------------|----------------------|----------------|
 | ![img1](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture1.PNG) | ![img2](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture2.PNG) | ![img3](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture3.PNG) | ![img4](https://raw.githubusercontent.com/amanyadav-work/job-portal/main/public/Job-Portal-Capture4.PNG) |
 
