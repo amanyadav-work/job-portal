@@ -46,7 +46,7 @@ const JobPage = () => {
         <h1 className="gradient-title font-extrabold pb-3 text-4xl sm:text-6xl">{job?.title}</h1>
         <img src={job?.company?.logo_url} alt={job?.title} className="h-12" />
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between my-2">
         <div className="flex gap-2">
           <MapPinIcon />
           {job?.location}
@@ -60,7 +60,7 @@ const JobPage = () => {
       </div>
       {/* hiring status  */}
       {job?.recruiter_id === user?.id &&
-        (<Select onValueChange={(value) => handleStatusChange(value)}>
+        (<Select className="my-2" onValueChange={(value) => handleStatusChange(value)}>
           <SelectTrigger className={`w-full + ${job?.isOpen ? "bg-green-950":"bg-red-950"}`}>
             <SelectValue placeholder={"Hiring Status" + (job?.isOpen?"(Open)":"(Closed)")} />
           </SelectTrigger>
